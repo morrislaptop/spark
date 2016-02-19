@@ -33,6 +33,8 @@ After installing Spark, be sure to migrate your database, install the NPM depend
 
 You may also wish to review the `SparkServiceProvider` class that was installed in your application. This provider is the central location for customizing your Spark installation.
 
+Note that installing Spark should be done while crafting your application. Installing Spark after running commands such as `php artisan app:name MyApp` may result in errors when trying to install.
+
 <a name="defining-subscription-plans"></a>
 ## Defining Subscription Plans
 
